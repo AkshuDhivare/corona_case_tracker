@@ -4,7 +4,7 @@ import Fetch_api from "./component/Fetch_api";
 function App() {
   return (
     <>
-      <h1 className="bg-primary text-white py-3 text-center ">
+      <h1 className="bg-primary text-white py-2 text-center ">
         Corona Virus Live Cases Tracker
       </h1>
       <div className="container">
