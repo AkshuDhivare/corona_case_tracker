@@ -1,3 +1,5 @@
+live demo url :- https://corona-virus-tracker-7o3u.onrender.com/
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
