@@ -14,6 +14,10 @@ function App() {
           </div>
         </div>
       </div>
+      <h3 className="bg-dark text-white p-3 text-center ">
+        &copy; {new Date().getFullYear()} Corono_Case_Tracker , Develop By
+        Akshay Dhivare
+      </h3>
     </>
   );
 }
