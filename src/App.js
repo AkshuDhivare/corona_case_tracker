@@ -4,7 +4,7 @@ import Fetch_api from "./component/Fetch_api";
 function App() {
   return (
     <>
-      <h1 className="bg-primary text-white py-5 text-center ">
+      <h1 className="bg-primary text-white py-3 text-center ">
         Corona Virus Live Cases Tracker
       </h1>
       <div className="container">
@@ -16,7 +16,7 @@ function App() {
       </div>
       <h3 className="bg-dark text-white p-3 text-center ">
         &copy; {new Date().getFullYear()} Corono_Case_Tracker , Develop By
-        Akshay Dhivare
+        Akshay Dhivare.
       </h3>
     </>
   );
