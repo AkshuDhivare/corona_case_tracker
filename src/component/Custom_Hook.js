@@ -1,15 +1,13 @@
 import React, { useState, useEffect } from "react";
 
-function Custom_Hook() {
+function Custom_Hook(url) {
   const [data, setData] = useState([]);
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
     const fetchApi = async () => {
       try {
-        const res = await fetch(
-          "https://data.covid19india.org/v4/min/data.min.json"
-        );
+        const res = await fetch(url);
 
         if (res.ok) {
           const json = await res.json();
